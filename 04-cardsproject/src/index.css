@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
 }
 
 body,html{
@@ -11,13 +11,14 @@ body,html{
   width: 100vw;
 }
 .parent{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #111;
   padding: 30px;
   display: flex;
   /* align-items: center; */
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -29,6 +30,7 @@ body,html{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
   
 
 }
