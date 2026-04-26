@@ -3,9 +3,7 @@ import 'remixicon/fonts/remixicon.css'
 
 const RightContent = () => {
   return (
-    <div className='h-full w-3/4 bg-blue-100'>
-      
-      
+    <div className='h-full w-2/3 bg-blue-100'>
 
 
     </div>
